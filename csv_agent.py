@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 import pandas as pd
 
+# to load the venv, run: .\venv/Scripts/Activate.ps1
+
 load_dotenv()
 
 openai_key = os.getenv("OPENAI_API_KEY")
